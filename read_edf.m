@@ -1,5 +1,6 @@
 
 %the current file read edf was made with the help of AI
+% source PSG data could not be uploaded to github due to file size constraint
 function [data, header] = read_edf(filename)
     % EDF reader for PSG data
     % Usage: [data, header] = read_edf('path/to/file.edf')
@@ -104,6 +105,7 @@ function [data, header] = read_edf(filename)
     fprintf('Memory used: %.1f MB\n', (numel(data) * 8) / (1024^2));
 
 end
+
 
 
 
