@@ -1,5 +1,5 @@
 
-%this code was made with the help of AI
+%this file (read_edf) was made with the help of AI
 function [data, header] = read_edf(filename)
     % EDF reader for PSG data
     % Usage: [data, header] = read_edf('path/to/file.edf')
@@ -104,4 +104,5 @@ function [data, header] = read_edf(filename)
     fprintf('Memory used: %.1f MB\n', (numel(data) * 8) / (1024^2));
 
 end
+
 
